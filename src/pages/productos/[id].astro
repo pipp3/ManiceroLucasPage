@@ -1,0 +1,33 @@
+---
+import productos from "../../data/productos.json";
+
+/*export const getStaticPaths(()=>{
+    return productos.map((producto))=>{
+        return{
+            params:{
+                id:producto.id
+            }
+                
+        }
+    };
+});*/
+
+export function getStaticPaths() {
+  return productos.map((producto)=>{
+    return{
+        params:{
+            nombre:producto.name,
+            id:producto.id
+        }
+    }
+  }) 
+}
+
+const { id,nombre } = Astro.params;
+
+---
+
+<div>El id es: {id}</div>
+<div>
+    <h1>{nombre}</h1>
+</div>

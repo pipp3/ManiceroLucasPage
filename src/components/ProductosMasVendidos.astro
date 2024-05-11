@@ -1,0 +1,11 @@
+---
+import Producto from './Producto.astro'; // Importa el componente Producto que convertimos anteriormente
+import productos from '../data/productos.json'; // Importar el archivo JSON con los datos de productos
+---
+
+<div class="flex flex-wrap justify-center">
+  {productos.map((product) => (
+    <Producto key={product.id} product={product} /> // Usa el componente Producto para cada producto en el JSON
+  ))}
+</div>
+

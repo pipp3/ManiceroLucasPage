@@ -1,0 +1,94 @@
+---
+
+  
+---
+
+<div id="default-carousel" class="relative w-full mt-2" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+      <!-- Item 1 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <img
+          src="/images/carrusel/carrusel1.jpg"
+          class="absolute block w-full h-full object-cover top-0 left-0"
+          alt="imagen"
+        />
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img
+          src="/images/carrusel/carrusel2.jpg"
+          class="absolute block w-full h-full object-cover top-0 left-0"
+          alt="imagen"
+        />
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img
+          src="/images/carrusel/carrusel3.jpg"
+          class="absolute block w-full h-full object-cover top-0 left-0"
+          alt="imagen"
+        />
+      </div>
+    </div>
+    <!-- Slider indicators -->
+    <div
+      class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+    >
+      <button
+        type="button"
+        class="w-3 h-3 rounded-full"
+        aria-current="true"
+        aria-label="Slide 1"
+        data-carousel-slide-to="0"></button>
+      <button
+        type="button"
+        class="w-3 h-3 rounded-full"
+        aria-current="false"
+        aria-label="Slide 2"
+        data-carousel-slide-to="1"></button>
+      <button
+        type="button"
+        class="w-3 h-3 rounded-full"
+        aria-current="false"
+        aria-label="Slide 3"
+        data-carousel-slide-to="2"></button>
+      <button
+        type="button"
+        class="w-3 h-3 rounded-full"
+        aria-current="false"
+        aria-label="Slide 4"
+        data-carousel-slide-to="3"></button>
+      <button
+        type="button"
+        class="w-3 h-3 rounded-full"
+        aria-current="false"
+        aria-label="Slide 5"
+        data-carousel-slide-to="4"></button>
+    </div>
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('[data-carousel-item]');
+    
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.remove('hidden');
+        } else {
+          slide.classList.add('hidden');
+        }
+      });
+    }
+    
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+    
+    setInterval(nextSlide, 5000); // Change slide every 5 seconds (5000 milliseconds)
+  });
+</script>

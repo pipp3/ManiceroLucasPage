@@ -1,0 +1,38 @@
+{
+  "name": "manicerolucas",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.9",
+    "@astrojs/react": "^3.1.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.15.17",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.5",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.13"
+  }
+}

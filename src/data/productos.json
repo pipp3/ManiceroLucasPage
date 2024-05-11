@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+      "name": "Producto 1",
+      "description": "Este es un excelente producto.",
+      "image": "/images/productos/pistachos.jpg"
+    },
+    {
+        "id":2,
+      "name": "Producto 2",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg"
+    },
+    {
+        "id":3,
+      "name": "Producto 3",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg"
+    },
+    {
+        "id":4,
+      "name": "Producto 4",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg"
+    },
+    {
+        "id":5,
+      "name": "Producto 5",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg"
+    }
+  ]
