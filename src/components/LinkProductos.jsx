@@ -9,7 +9,7 @@ const Productos = () => {
 
   const tiposProductos = ["Frutos Secos", "Frutas Deshidratadas", "Dulces", "Condimentos y Especias", "Hierbas y Tes", "Otros"];
 
-  const link = "hover:bg-violet-800 ml-5 px-2 py-3 rounded-lg";
+  const link = "ml-5 px-2 py-3 rounded-lg";
 
   const handleMouseEnter = () => {
     clearTimeout(timeoutRef.current);
@@ -42,7 +42,7 @@ const Productos = () => {
       {mostrarLista && (
         <div className="absolute z-10 bg-white mt-2 p-2 rounded-lg shadow-lg" onMouseEnter={handleSubMenuMouseEnter} onMouseLeave={handleSubMenuMouseLeave}>
           {tiposProductos.map((producto, index) => (
-            <a key={index} href="#" className="block px-4 py-2 text-teal-400 hover:bg-violet-800 hover:text-white">{producto}</a>
+            <a key={index} href={`/${producto}`} className="block px-4 py-2 text-gray-400 hover:bg-slate-200 hover:text-yellow-600">{producto}</a>
           ))}
         </div>
       )}

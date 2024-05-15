@@ -1,0 +1,85 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Producto2 from "../components/Producto2";
+import frutosSecos from "../data/frutos-secos.json";
+import frutas from "../data/frutasD.json";
+import dulces from "../data/dulces.json"
+import condimentosEspecias from "../data/condimentosEspecias.json"
+import hierbasTe from "../data/hierbasTe.json"
+import ProductPagination from "../components/Paginacion";
+
+export function getStaticPaths() {
+  return [
+    { params: { tipo: "Frutos Secos" } },
+    { params: { tipo: "Frutas Deshidratadas" } },
+    { params: { tipo: "Dulces" } },
+    { params: { tipo: "Condimentos y Especias" } },
+    { params: { tipo: "Hierbas y Tes" } },
+    { params: { tipo: "Otros" } },
+  ];
+}
+
+const { tipo } = Astro.params;
+
+let imagen;
+let productos;
+switch (tipo) {
+  case "Frutos Secos":
+    imagen = "/images/banners/bannerFrutosSecos.png";
+    productos = frutosSecos;
+    break;
+  case "Frutas Deshidratadas":
+    imagen = "/images/banners/bannerFrutas3.png";
+    productos = frutas;
+    break;
+  case "Dulces":
+    imagen = "/images/banners/bannerDulces.png";
+    productos = dulces;
+    break;
+  case "Condimentos y Especias":
+    imagen = "/images/banners/bannerCondimentos.png";
+    productos=condimentosEspecias;
+    break;
+  case "Hierbas y Tes":
+    imagen = "/images/banners/bannerTes.png";
+    productos=hierbasTe;
+    break;
+  case "Otros":
+    imagen = "/images/banners/bannerOtros.png";
+    break;
+  default:
+    imagen = "/images/defaultBanner.png";
+    break;
+}
+---
+
+<Layout>
+  <slot name="content">
+    <div id="containerBanner">
+      <a href="#"> <img src={imagen} alt="" /></a>
+    </div>
+    <div
+      class="w-3/4 grid grid-cols-4 mt-4 gap-4 mb-4 mx-auto justify-center items-center"
+    >
+      {productos.map((product) => <Producto2 product={product} tipo={tipo}/>)}
+    </div>
+    <div class="justify-center items-center flex">
+      <ProductPagination totalProducts={productos.length} />
+    </div>
+    
+   
+  </slot>
+</Layout>
+
+<style>
+  #containerBanner {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #containerBanner img {
+    width: 1024px;
+    height: 380px;
+    margin: 0 auto;
+  }
+</style>

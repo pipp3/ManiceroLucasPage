@@ -1,9 +1,9 @@
 ---
-import productos from "../../data/productos.json";
+import frutosSecos from "../../data/frutos-secos.json"
 import Layout from "../../layouts/Layout.astro";
 
 export function getStaticPaths() {
-  return productos.map((producto) => {
+  return frutosSecos.map((producto) => {
     return {
       params: {
         id: producto.id,
@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 const { id } = Astro.params;
 // Buscamos el producto en la lista de productos por su ID
-const producto = productos.find((producto) => producto.id == id);
+const producto = frutosSecos.find((producto) => producto.id == id);
 
 // Si encontramos el producto, obtenemos su nombre
 const nombreDelProducto = producto ? producto.name : "Producto no encontrado";

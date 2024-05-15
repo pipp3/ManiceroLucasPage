@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Huevito de Chocolate",
+        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+        "image": "/images/productos/pistachos.jpg",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.500"
+      },
+      {
+        "id": 2,
+        "name": "Goji",
+        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+        "image": "/images/productos/pistachos.jpg",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.500"
+      },
+      {
+        "id": 3,
+        "name": "Goji",
+        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+        "image": "/images/productos/pistachos.jpg",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.500"
+      },
+      {
+        "id": 4,
+        "name": "Goji",
+        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+        "image": "/images/productos/pistachos.jpg",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.500"
+      },
+      {
+        "id": 5,
+        "name": "Goji",
+        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+        "image": "/images/productos/pistachos.jpg",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.500"
+      }
+]

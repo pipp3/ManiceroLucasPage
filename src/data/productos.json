@@ -1,32 +1,76 @@
 [
     {
-        "id":1,
-      "name": "Producto 1",
-      "description": "Este es un excelente producto.",
-      "image": "/images/productos/pistachos.jpg"
+      "id":1,
+      "name": "Pistachos Salados",
+      "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
     },
     {
         "id":2,
       "name": "Producto 2",
       "description": "Este producto es aún mejor.",
-      "image": "/images/productos/pistachos.jpg"
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
     },
     {
         "id":3,
       "name": "Producto 3",
       "description": "Este producto es aún mejor.",
-      "image": "/images/productos/pistachos.jpg"
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
     },
     {
         "id":4,
       "name": "Producto 4",
       "description": "Este producto es aún mejor.",
-      "image": "/images/productos/pistachos.jpg"
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
     },
     {
         "id":5,
       "name": "Producto 5",
       "description": "Este producto es aún mejor.",
-      "image": "/images/productos/pistachos.jpg"
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
+    },
+    {
+        "id":6,
+      "name": "Producto 6",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
+    }
+    ,
+    {
+        "id":7,
+      "name": "Producto 7",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
+    }
+    ,
+    {
+        "id":8,
+      "name": "Producto 8",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
+    },
+    {
+        "id":9,
+      "name": "Producto 9",
+      "description": "Este producto es aún mejor.",
+      "image": "/images/productos/pistachos.jpg",
+      "formatos":"1 KG - 500 Gramos",
+      "precioMin":"$6.500"
     }
   ]
