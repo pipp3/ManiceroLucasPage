@@ -17,7 +17,7 @@ export default function ProductosMasVendidos() {
   };
   const SliderComponent = typeof window === 'undefined' ? Slider.default : Slider;
   return (
-    <div className="slider-container">
+    <div className="slider-container px-4">
       <SliderComponent {...settings} className="mb-8">
         {productos.map((product) => (
           <Producto product={product} key={product.id} />
