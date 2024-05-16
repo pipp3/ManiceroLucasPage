@@ -1,35 +1,60 @@
 ---
-import Layout from "../layouts/Layout.astro"
-import Mapa from "../components/Mapa"
-
+import Layout from "../layouts/Layout.astro";
+import Mapa from "../components/Mapa";
 ---
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-</head>
-<body>
-    <Layout>
-        <section class="container mx-auto pl-4 py-8">
-            <h1 class="text-3xl font-bold mb-4 text-yellow-600">Nosotros</h1>
-            <p class="mb-4 text-gray-400">Bienvenido a El Manicero Lucas, tu tienda de confianza para los mejores frutos secos, dulces, condimentos, especias, tés, hierbas y frutas deshidratadas.</p>
-            <p class="mb-4 text-gray-400">En El Manicero Lucas nos enorgullece ofrecer productos de primera calidad que deleitan a nuestros clientes desde 2012. Nuestro compromiso con la calidad y el servicio al cliente es insuperable.</p>
-            <p class="mb-4 text-gray-400">Nos especializamos en el tostado y el confitado de maní , asegurando que cada producto que sale de nuestra tienda esté cuidadosamente preparado y sea delicioso hasta el último bocado.</p>
-            <p class="mb-4 text-gray-400">Ya sea que estés buscando un regalo especial, un bocadillo saludable o ingredientes de primera calidad para tus recetas favoritas, tenemos todo lo que necesitas y más.</p>
-            
-            <Mapa client:only/>
-        </section>
-    </Layout>
-</body>
 
-  
+<!doctype html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosotros</title>
+  </head>
+  <body>
+    <Layout>
+      <section class="container mx-auto pl-4 py-8">
+        <h1 class="text-3xl font-bold mb-4 text-yellow-600">Nosotros</h1>
+        <p class="mb-4 text-gray-400">
+          Bienvenido a El Manicero Lucas, tu tienda de confianza para los
+          mejores frutos secos, dulces, condimentos, especias, tés, hierbas y
+          frutas deshidratadas.
+        </p>
+        <p class="mb-4 text-gray-400">
+          En El Manicero Lucas nos enorgullece ofrecer productos de primera
+          calidad que deleitan a nuestros clientes desde 2012. Nuestro
+          compromiso con la calidad y el servicio al cliente es insuperable.
+        </p>
+        <p class="mb-4 text-gray-400">
+          Nos especializamos en el tostado y el confitado de maní , asegurando
+          que cada producto que sale de nuestra tienda esté cuidadosamente
+          preparado y sea delicioso hasta el último bocado.
+        </p>
+        <p class="mb-4 text-gray-400">
+          Ya sea que estés buscando un regalo especial, un bocadillo saludable o
+          ingredientes de primera calidad para tus recetas favoritas, tenemos
+          todo lo que necesitas y más.
+        </p>
+
+        <div class="flex">
+          <div class="w-1/2">
+            <p class="font-semibold text-gray-400"> Estamos ubicados en la comuna de Recoleta a pasos de los metros Patronatro y Puente Cal y Canto. Nos puedes encontrar en Avenida La Paz 275 como referencia, en Pasaje Rosas Local 5</p>
+          </div>
+          <div class="w-1/2">
+            <Mapa client:only />
+          </div>
+        </div>
+      </section>
+    </Layout>
+  </body>
 </html>

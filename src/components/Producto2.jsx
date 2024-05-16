@@ -10,13 +10,13 @@ const Producto2 = ({ product,tipo }) => {
           
           break;
         case "Dulces":
-            ruta = "/images/banners/bannerDulces.png";
+            ruta = `/Dulces/${product.id}`;
           break;
         case "Condimentos y Especias":
-            ruta = "/images/banners/bannerCondimentos.png";
+            ruta = `/condimentos-especias/${product.id}`;
           break;
         case "Hierbas y Tes":
-            ruta = "/images/banners/bannerTes.png";
+            ruta = `/Hierbas-Tes/${product.id}`;
           break;
         case "Otros":
             ruta = "/images/banners/bannerOtros.png";
@@ -27,7 +27,7 @@ const Producto2 = ({ product,tipo }) => {
       }
   return (
     <div className="card card-compact w-80 bg-base-100 shadow-xl">
-      <figure>
+      <figure className="h-48 w-full">
         <img src={product.image} alt="Producto" />
       </figure>
       <div className="card-body">
@@ -39,7 +39,7 @@ const Producto2 = ({ product,tipo }) => {
         </p>
         <div className="card-actions justify-end">
           <a href={ruta}>
-            <button className="btn bg-yellow-700 hover:bg-yellow-600 text-slate-100 font-bold uppercase">
+            <button className="btn bg-amber-800 hover:bg-amber-600 text-slate-100 font-bold uppercase">
               Ver Mas
             </button>
           </a>

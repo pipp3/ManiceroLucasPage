@@ -9,34 +9,58 @@
   },
   {
     "id": 2,
-    "name": "Pistachos Salados",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Almendras",
+    "description": "Disfruta del delicioso sabor y la textura crujiente de las Almendras. Estas nutritivas y versátiles nueces son un bocadillo saludable y satisfactorio para cualquier momento del día.\n\nBeneficiosos para la salud:\n\nLas almendras son una excelente fuente de proteínas vegetales, fibra, vitamina E, minerales como el magnesio y antioxidantes beneficiosos. Además, contienen grasas saludables que promueven la salud cardiovascular y pueden ayudar a controlar los niveles de azúcar en la sangre.",
+    "image": "/images/productos/frutos-secos/almendras.jpg",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$8.000"
   },
   {
     "id": 3,
-    "name": "Pistachos Salados",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Nueces Enteras",
+    "description": "Disfruta de la textura crujiente y el sabor intenso de las Nueces Enteras. Estas nueces son un superalimento nutritivo y versátil que puedes disfrutar como bocadillo o ingrediente en tus platos favoritos.\n\nRicas en nutrientes:\n\nLas nueces son una fuente excepcional de proteínas, grasas saludables, fibra, antioxidantes y una amplia variedad de vitaminas y minerales. Están asociadas con numerosos beneficios para la salud, como la mejora de la función cerebral, la reducción del riesgo de enfermedades cardíacas y la promoción de un sistema inmunológico saludable.",
+    "image": "/images/productos/nueces.jpg",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$10.000"
   },
   {
     "id": 4,
-    "name": "Pistachos Salados",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Castaña de Caju Sin Sal",
+    "description": "Disfruta del sabor irresistible y la textura crujiente del Maní Tostado. Este bocadillo clásico es una deliciosa fuente de proteínas y un complemento perfecto para tus momentos de snack.\n\nNutrición conveniente:\n\nEl maní es una legumbre rica en proteínas vegetales, fibra, grasas saludables, vitaminas y minerales. Además de ser una opción nutritiva, el maní tostado es una excelente fuente de antioxidantes y puede contribuir a la salud cardiovascular y el control del peso.",
+    "image": "/images/productos/frutos-secos/Caju.jpg",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$4.500"
   },
   {
     "id": 5,
-    "name": "Pistachos Salados",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Mix de Frutos Secos Salado",
+    "description": "Disfruta de una deliciosa variedad de frutos secos en un solo bocadillo con nuestro Mix de Frutos Secos Salados. Esta combinación incluye almendras, nueces, pistachos, avellanas y más, para satisfacer todos los gustos.\n\nUna explosión de sabores y nutrientes:\n\nNuestro Mix de Frutos Secos es una fuente excepcional de proteínas, fibra, grasas saludables, vitaminas y minerales. Cada bocado te brindará una experiencia única de texturas y sabores, mientras disfrutas de los beneficios nutricionales de una variedad de frutos secos.",
+    "image": "/images/productos/frutos-secos/MixFrutosSecos.jpg",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$4.000"
+  },
+  {
+    "id": 6,
+    "name": "Mix de Frutos Secos Sin Sal",
+    "description": "Disfruta de una deliciosa variedad de frutos secos en un solo bocadillo con nuestro Mix de Frutos Secos Sin Sal. Esta combinación incluye almendras, nueces, pistachos, avellanas y más, para satisfacer todos los gustos.\n\nUna explosión de sabores y nutrientes:\n\nNuestro Mix de Frutos Secos es una fuente excepcional de proteínas, fibra, grasas saludables, vitaminas y minerales. Cada bocado te brindará una experiencia única de texturas y sabores, mientras disfrutas de los beneficios nutricionales de una variedad de frutos secos.",
+    "image": "/images/productos/frutos-secos/MixFrutosSecos.jpg",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$4.000"
+  },
+  {
+    "id": 7,
+    "name": "Maní Japones Natural",
+    "description": "Disfruta del sabor irresistible y la textura crujiente del Maní Salado. Este bocadillo clásico es una deliciosa fuente de proteínas y un complemento perfecto para tus momentos de snack.\n\nNutrición conveniente:\n\nEl maní es una legumbre rica en proteínas vegetales, fibra, grasas saludables, vitaminas y minerales. Además de ser una opción nutritiva, el maní tostado es una excelente fuente de antioxidantes y puede contribuir a la salud cardiovascular y el control del peso.",
+    "image": "/images/productos/frutos-secos/ManiJapN.jpg",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$4.500"
+  },
+  {
+    "id": 8,
+    "name": "Maní Sin Sal",
+    "description": "Disfruta del sabor irresistible y la textura crujiente del Maní Sin Sal. Este bocadillo clásico es una deliciosa fuente de proteínas y un complemento perfecto para tus momentos de snack.\n\nNutrición conveniente:\n\nEl maní es una legumbre rica en proteínas vegetales, fibra, grasas saludables, vitaminas y minerales. Además de ser una opción nutritiva, el maní tostado es una excelente fuente de antioxidantes y puede contribuir a la salud cardiovascular y el control del peso.",
+    "image": "/images/productos/mani.jpg",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$4.500"
   }
 ]
