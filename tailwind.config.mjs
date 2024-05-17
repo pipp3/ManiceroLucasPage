@@ -5,8 +5,10 @@ export default {
 		extend: {},
 		fontFamily: {
             'sans': ['Roboto', 'sans-serif'],
-            // 'sans' será el nombre que usarás en tu HTML/CSS para referenciar la fuente
+			'poppins': ['Poppins', 'sans-serif'], // Agrega la fuente Poppins
+           
         },
+		
 	},
 	plugins: [require('daisyui')],
 }

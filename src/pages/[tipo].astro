@@ -29,19 +29,19 @@ switch (tipo) {
     productos = frutosSecos;
     break;
   case "Frutas Deshidratadas":
-    imagen = "/images/banners/bannerFrutas3.png";
+    imagen = "/images/banners/bannerFD.png";
     productos = frutas;
     break;
   case "Dulces":
-    imagen = "/images/banners/bannerDulces.png";
+    imagen = "/images/banners/bannerDul.png";
     productos = dulces;
     break;
   case "Condimentos y Especias":
-    imagen = "/images/banners/bannerCondimentos.png";
+    imagen = "/images/banners/bannerCondi.png";
     productos=condimentosEspecias;
     break;
   case "Hierbas y Tes":
-    imagen = "/images/banners/bannerTes.png";
+    imagen = "/images/banners/bannerHier.png";
     productos=hierbasTe;
     break;
   case "Otros":
@@ -59,7 +59,7 @@ switch (tipo) {
       <a href="#"> <img src={imagen} alt="" /></a>
     </div>
     <div
-      class="w-3/4 grid grid-cols-4 mt-4 gap-4 mb-4 mx-auto justify-center items-center"
+      class="w-3/4 grid grid-cols-4 lg:grid-cols-3 mt-4 gap-4 mb-4 mx-auto justify-center items-center"
     >
       {productos.map((product) => <Producto2 product={product} tipo={tipo}/>)}
     </div>

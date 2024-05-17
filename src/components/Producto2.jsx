@@ -26,20 +26,20 @@ const Producto2 = ({ product,tipo }) => {
           break;
       }
   return (
-    <div className="card card-compact w-80 bg-base-100 shadow-xl">
+    <div className="card card-compact w-80 bg-transparent shadow-2xl">
       <figure className="h-48 w-full">
         <img src={product.image} alt="Producto" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-gray-400 font-sans uppercase">
+        <h2 className="card-title text-gray-600 font-sans uppercase">
           {product.name}
         </h2>
-        <p className="font-semibold text-xl text-gray-400">
+        <p className="font-semibold text-xl text-gray-600">
           Desde: {product.precioMin}
         </p>
         <div className="card-actions justify-end">
           <a href={ruta}>
-            <button className="btn bg-amber-800 hover:bg-amber-600 text-slate-100 font-bold uppercase">
+            <button className="btn bg-amber-800 hover:bg-amber-600 text-slate-100 font-bold uppercase border-none">
               Ver Mas
             </button>
           </a>
