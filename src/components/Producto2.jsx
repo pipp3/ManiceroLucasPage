@@ -40,7 +40,7 @@ const Producto2 = ({ product,tipo }) => {
         <div className="card-actions justify-end">
           <a href={ruta}>
             <button className="btn bg-amber-800 hover:bg-amber-600 text-slate-100 font-bold uppercase border-none">
-              Ver Mas
+              Ver Producto
             </button>
           </a>
         </div>

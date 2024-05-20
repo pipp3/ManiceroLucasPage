@@ -4,12 +4,14 @@ const link="hover:cursor-pointer mr-10 px-3 py-3 rounded-lg"
 ---
 
 <nav>
-    <div class=" pb-2 items-center flex space-x-5 justify-center font-bold uppercase tracking-wide text-gray-400">
+    <div class=" px-2 mb-auto items-center flex space-x-5 justify-center font-bold uppercase tracking-wide text-gray-400">
         <a href="/" class="hover:cursor-pointer mr-1 px-2 py-3 rounded-lg">Inicio</a>
         <div class="border-r border-yellow-600 h-6"></div>
         <Productos client:load/>
         <div class="border-r border-yellow-600 h-6"></div>
         <a href="/nosotros" class={link}>Nosotros</a>
+        <div class="border-r border-yellow-600 h-6"></div>
+        <a href="/envios" class={link}>Envios</a>
         <div class="border-r border-yellow-600 h-6"></div>
         <a href="#" class={link}>Precios</a>
         <div class="border-r border-yellow-600 h-6"></div>

@@ -1,0 +1,18 @@
+---
+// Card.astro
+export interface Props {
+  imageSrc: string;
+  title: string;
+}
+
+const { imageSrc, title } = Astro.props;
+---
+
+<div class="card w-96 h-auto bg-base-100 shadow-xl m-4">
+  <figure><img class="mt-12" src={imageSrc} alt="Imagen" /></figure>
+  <div class="card-body flex justify-center items-center">
+    <h2 class="card-title uppercase text-gray-400">{title}</h2>
+  </div>
+</div>
+
+ 

@@ -5,7 +5,9 @@ export default {
 		extend: {},
 		fontFamily: {
             'sans': ['Roboto', 'sans-serif'],
-			'poppins': ['Poppins', 'sans-serif'], // Agrega la fuente Poppins
+			'poppins': ['Poppins', 'sans-serif'],
+			'ubuntu': [ 'Ubuntu','sans-serif'],
+			'convergence': ['Convergence','sans-serif']
            
         },
 		
