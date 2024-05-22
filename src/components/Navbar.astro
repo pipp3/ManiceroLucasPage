@@ -1,20 +1,45 @@
 ---
-import Productos from "./LinkProductos"
-const link="hover:cursor-pointer mr-10 px-3 py-3 rounded-lg"
+import Productos from "./LinkProductos";
+import Dropdown from "./Dropdown.astro";
+const link = "hover:cursor-pointer mr-10 px-3 py-3 rounded-lg";
 ---
 
-<nav>
-    <div class=" px-2 mb-auto items-center flex space-x-5 justify-center font-bold uppercase tracking-wide text-gray-400">
-        <a href="/" class="hover:cursor-pointer mr-1 px-2 py-3 rounded-lg">Inicio</a>
-        <div class="border-r border-yellow-600 h-6"></div>
-        <Productos client:load/>
-        <div class="border-r border-yellow-600 h-6"></div>
-        <a href="/nosotros" class={link}>Nosotros</a>
-        <div class="border-r border-yellow-600 h-6"></div>
-        <a href="/envios" class={link}>Envios</a>
-        <div class="border-r border-yellow-600 h-6"></div>
-        <a href="#" class={link}>Precios</a>
-        <div class="border-r border-yellow-600 h-6"></div>
-        <a href="/contacto" class={link}>Contacto</a>
-    </div>
+<nav class="hidden md:block">
+  <div
+    class="px-2 mb-auto items-center flex space-x-5 justify-center font-bold uppercase tracking-wide text-gray-400 md:space-x-2"
+  >
+    <a href="/" class="hover:cursor-pointer mr-1 px-2 py-3 rounded-lg">Inicio</a
+    >
+    <div class="border-r border-yellow-600 h-6"></div>
+    <Productos client:load />
+    <div class="border-r border-yellow-600 h-6"></div>
+    <a href="/nosotros" class={link}>Nosotros</a>
+    <div class="border-r border-yellow-600 h-6"></div>
+    <a href="/envios" class={link}>Envios</a>
+    <div class="border-r border-yellow-600 h-6"></div>
+    <a href="#" class={link}>Precios</a>
+    <div class="border-r border-yellow-600 h-6"></div>
+    <a href="/contacto" class={link}>Contacto</a>
+  </div>
 </nav>
+
+<div class="md:hidden flex justify-center items-center">
+  <details class="dropdown ml-0">
+    <summary class="mr-1 btn"><img src="/images/menu.png" alt="" /></summary>
+    <ul
+      class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 text-gray-400"
+    >
+      <li class="hover:text-yellow-600"><a href="/">Inicio</a></li>
+      <li class="hover:text-yellow-600"><Dropdown /></li>
+      <li class="hover:text-yellow-600"><a href="/nosotros">Nosotros</a></li>
+      <li class="hover:text-yellow-600"><a href="/envios">Envios</a></li>
+      <li class="hover:text-yellow-600"><a href="#">Precios</a></li>
+      <li class="hover:text-yellow-600"><a href="/contacto">Contacto</a></li>
+    </ul>
+  </details>
+  <p
+    class="text-yellow-600 font-bold lg:mt-0 lg:ml-12 text-center md:text-left md:ml-1 md:mt-0 block md:hidden lg:block"
+  >
+    Envios a todas las regiones <span class="uppercase">por pagar</span>
+  </p>
+</div>
