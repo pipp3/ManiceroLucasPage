@@ -9,13 +9,33 @@ export default function ProductosMasVendidos() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: productos.length > 3 ? 4 : productos.length,
     speed: 1000,
-    autoplay:true,
+    autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: "linear"
+    cssEase: "linear",
+    slidesToShow: 4,  // Default for larger screens
+    responsive: [
+      {
+        breakpoint: 1024,  // Adjust as needed (medium screens)
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,  // Adjust as needed (tablets)
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,  // Adjust as needed (mobile)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
-  const SliderComponent = typeof window === 'undefined' ? Slider.default : Slider;
+  const SliderComponent = typeof window === 'undefined' ? Slider.default : Slider; // SSR fix
   return (
     <div className="slider-container px-4">
       <SliderComponent {...settings} className="mb-8">
