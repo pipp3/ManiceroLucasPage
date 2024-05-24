@@ -3,11 +3,11 @@ import Layout from "../layouts/Layout.astro";
 import Mapa from "../components/Mapa";
 ---
     <Layout>
-      <section class="container mx-auto py-16 flex flex-wrap justify-center gap-8">
+      <section class="container mx-4 py-16 flex flex-wrap justify-center gap-8">
        
 
         <div class="card lg:card-side bg-base-100 shadow-xl">
-          <figure><img src="/images/historia2.jpg" alt="Imagen"/></figure>
+          <figure><img src="/images/nosotros3.jpg" alt="Imagen"/></figure>
           <div class="card-body">
             <h2 class="card-title text-2xl">Nuestra Historia</h2>
             <p class="text-lg">Desde 2012, El Manicero Lucas se ha dedicado a proporcionar productos de calidad superior. Comenzamos con un pequeño local y, gracias al apoyo de nuestros clientes, hemos crecido y expandido nuestra oferta, siempre manteniendo nuestro compromiso con la excelencia.</p>
@@ -17,7 +17,7 @@ import Mapa from "../components/Mapa";
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
           <figure>
-            <img src="/images/historia.jpg" alt="Imagen de nuestros productos" class="w-full" loading="lazy" />
+            <img src="/images/productos.jpg" alt="Imagen de nuestros productos" class="w-full" loading="lazy" />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Productos y Servicios</h2>
@@ -27,7 +27,9 @@ import Mapa from "../components/Mapa";
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
           <figure>
-            <img src="/images/historia.jpg" alt="Imagen de nuestra ubicación" class="w-full" loading="lazy" />
+            <div class="justify-center flex">
+              <Mapa client:only />
+            </div>
           </figure>
           <div class="card-body">
             <h2 class="card-title">Ubicación y Contacto</h2>
@@ -35,9 +37,7 @@ import Mapa from "../components/Mapa";
           </div>
         </div>
       
-        <div class="justify-center flex">
-          <Mapa client:only />
-        </div>
+       
       </section>
       
     </Layout>
