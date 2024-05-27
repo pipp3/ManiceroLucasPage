@@ -2,43 +2,64 @@
 import Layout from "../layouts/Layout.astro";
 import Mapa from "../components/Mapa";
 ---
-    <Layout>
-      <section class="container mx-4 py-16 flex flex-wrap justify-center gap-8">
-       
 
-        <div class="card lg:card-side bg-base-100 shadow-xl">
-          <figure><img src="/images/nosotros3.jpg" alt="Imagen"/></figure>
-          <div class="card-body">
-            <h2 class="card-title text-2xl">Nuestra Historia</h2>
-            <p class="text-lg">Desde 2012, El Manicero Lucas se ha dedicado a proporcionar productos de calidad superior. Comenzamos con un pequeño local y, gracias al apoyo de nuestros clientes, hemos crecido y expandido nuestra oferta, siempre manteniendo nuestro compromiso con la excelencia.</p>
-           
-          </div>
+<Layout>
+  <section class=" mx-4 py-16 flex flex-wrap justify-center items-center gap-8">
+    <div class="card lg:card-side bg-base-100 shadow-xl">
+      <figure><img src="/images/nosotros3.jpg" alt="Imagen" /></figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl text-yellow-700">Nuestra Historia</h2>
+        <p class="text-lg text-gray-400">
+          Desde 2012, El Manicero Lucas se ha dedicado a proporcionar productos
+          de calidad superior. Comenzamos con un pequeño local y, gracias al
+          apoyo de nuestros clientes, hemos crecido y expandido nuestra oferta,
+          siempre manteniendo nuestro compromiso con la excelencia.
+        </p>
+      </div>
+    </div>
+    <div class="flex justify-between gap-14">
+      <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
+        <figure>
+          <img
+            src="/images/productos.jpg"
+            alt="Imagen de nuestros productos"
+            class="w-full"
+            loading="lazy"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-yellow-700 text-2xl">
+            Productos y Servicios
+          </h2>
+          <p class="text-gray-400 text-base">
+            Nos especializamos en el tostado y confitado de maní, y ofrecemos
+            una amplia variedad de frutos secos, dulces, condimentos, especias,
+            tés, hierbas y frutas deshidratadas. Ya sea que estés buscando un
+            regalo especial, un bocadillo saludable o ingredientes de primera
+            calidad para tus recetas favoritas, tenemos todo lo que necesitas y
+            más.
+          </p>
         </div>
-      
-        <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
-          <figure>
-            <img src="/images/productos.jpg" alt="Imagen de nuestros productos" class="w-full" loading="lazy" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Productos y Servicios</h2>
-            <p>Nos especializamos en el tostado y confitado de maní, y ofrecemos una amplia variedad de frutos secos, dulces, condimentos, especias, tés, hierbas y frutas deshidratadas. Ya sea que estés buscando un regalo especial, un bocadillo saludable o ingredientes de primera calidad para tus recetas favoritas, tenemos todo lo que necesitas y más.</p>
-          </div>
-        </div>
-      
-        <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
-          <figure>
-            <div class="justify-center flex">
-              <Mapa client:only />
-            </div>
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Ubicación y Contacto</h2>
-            <p>Estamos ubicados en la comuna de Recoleta a pasos de los metros Patronato y Puente Cal y Canto. Nos puedes encontrar en Avenida La Paz 275 como referencia, en Pasaje Rosas Local 5.</p>
-          </div>
-        </div>
-      
-       
-      </section>
-      
-    </Layout>
+      </div>
 
+      <div class="card card-compact w-96 bg-base-100 shadow-xl mb-8">
+        <figure>
+          <div class="justify-center flex">
+            <Mapa client:only />
+          </div>
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-yellow-700 text-2xl">
+            Ubicación y Contacto
+          </h2>
+          <p class="text-gray-400 text-base">
+            Estamos ubicados en la comuna de Recoleta a pasos de los metros
+            Patronato y Puente Cal y Canto. Nos puedes encontrar en Avenida La
+            Paz 275 como referencia, en Pasaje Rosas Local 5.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</Layout>

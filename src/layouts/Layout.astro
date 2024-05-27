@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import HeaderMobile from "../components/HeaderMobile.astro";
 ---
 
 <!doctype html>
@@ -50,7 +51,13 @@ import Header from "../components/Header.astro";
   </head>
   <body class="bg-white">
     <div class="flex flex-col min-h-screen">
-      <Header />
+      <div class="md:block hidden">
+        <Header/>
+      </div>
+      <div class="md:hidden block">
+        <HeaderMobile  />
+      </div>
+      
       <Navbar />
 
       <div class="flex-grow">

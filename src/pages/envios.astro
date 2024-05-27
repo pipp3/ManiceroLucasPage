@@ -3,33 +3,72 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <h1 class="text-4xl font-bold mb-6 text-center mt-4 text-yellow-700">Información sobre Envíos</h1>
-    <section class="container mx-auto pl-4 py-4">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-600">Condiciones de Envío</h2>
-      <p class="mb-4 text-gray-400">Realizamos envíos de productos de frutos secos a diferentes regiones. Por favor, tenga en cuenta las siguientes condiciones para nuestros envíos:</p>
-      <ul class="list-disc list-inside pl-4 text-gray-400">
-        <li class="mb-2">Los envíos se realizan únicamente de región a región.</li>
-        <li class="mb-2">El monto mínimo para realizar un envío es de $30.000.</li>
-      </ul>
-    </section>
-  
-    <section class="container mx-auto pl-4 py-4">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-600">Compañías de Transporte</h2>
-      <p class="mb-4 text-gray-400">Trabajamos con las siguientes compañías de transporte para asegurar que sus productos lleguen de manera segura y puntual:</p>
-      <ul class="list-disc list-inside pl-4 text-gray-400">
-        <li class="mb-2">Starken</li>
-        <li class="mb-2">Varmontt</li>
-        <li class="mb-2">Chevalier</li>
-      </ul>
-    </section>
-  
-    <section class="container mx-auto pl-4 py-4">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-600">Proceso de Envío</h2>
-      <p class="mb-4 text-gray-400">Una vez que su pedido ha sido procesado y empaquetado, será enviado a través de una de las compañías mencionadas anteriormente. Recibirá la boleta del envio para monitorear el estado de su envío.</p>
-    </section>
-  
-    <section class="container mx-auto pl-4 py-4">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-600">Contacto</h2>
-      <p class="mb-4 text-gray-400">Si tiene alguna pregunta sobre los envíos, no dude en ponerse en contacto con nosotros a través de nuestro <a href="/contacto" class="text-amber-700">formulario de contacto</a> o a nuestro <a class="text-amber-700" href="#">WhatsApp</a> .</p>
-    </section>
+  <section class="mx-4 py-16 flex flex-wrap gap-8 items-center justify-center">
+    <div class="card lg:card-side bg-base-100 shadow-xl">
+      <figure>
+        <img src="/images/condiciones.png" alt="Imagen" class="w-40 h-40" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl text-yellow-700">
+          Condiciones de Envío
+        </h2>
+        <p class="text-lg text-gray-400">
+          Realizamos envíos de productos de frutos secos a diferentes regiones.
+          Por favor, tenga en cuenta las siguientes condiciones para nuestros
+          envíos:
+        </p>
+        <ul class="list-disc list-inside pl-4 text-gray-400">
+          <li class="mb-2">
+            Los envíos se realizan únicamente de región a región.
+          </li>
+          <li class="mb-2">
+            El monto mínimo para realizar un envío es de $30.000.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <figure><img src="/images/comp.png" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl text-yellow-700">Compañías de Transporte</h2>
+        <p class="text-base text-gray-400">Trabajamos con las siguientes compañías de transporte para asegurar
+          que sus productos lleguen de manera segura y puntual:</p>
+          <ul class="list-disc text-base list-inside pl-4 text-gray-400">
+            <li class="mb-2">Starken</li>
+            <li class="mb-2">Varmontt</li>
+            <li class="mb-2">Chevalier</li>
+            <li class="mb-2">Pullman Cargo</li>
+          </ul>
+        
+      </div>
+    </div>
+
+    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <figure><img src="/images/proceso2.jpg" alt="Image" /></figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl text-yellow-700">Proceso de Envío</h2>
+        <p class="text-base text-gray-400"> Una vez que su pedido ha sido procesado y empaquetado, será enviado a
+          través de una de las compañías mencionadas anteriormente. Recibirá la
+          boleta del envió para monitorear el estado de su envío.</p>
+          
+      </div>
+    </div>
+
+    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <figure><img src="/images/contacto2.png" alt="Image" /></figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl text-yellow-700">Contacto</h2>
+        <p class="text-base text-gray-400">
+          Si tiene alguna pregunta sobre los envíos, no dude en ponerse en
+          contacto con nosotros a través de nuestro <a
+            href="/contacto"
+            class="text-amber-700">formulario de contacto</a
+          > o a nuestro <a class="text-amber-700" href="#">WhatsApp</a> .
+        </p>
+          
+      </div>
+    </div>
+
+  </section>
 </Layout>
