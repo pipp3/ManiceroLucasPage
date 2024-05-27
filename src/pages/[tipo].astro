@@ -15,7 +15,6 @@ export function getStaticPaths() {
     { params: { tipo: "Dulces" } },
     { params: { tipo: "Condimentos y Especias" } },
     { params: { tipo: "Hierbas y Tes" } },
-    { params: { tipo: "Otros" } },
   ];
 }
 
@@ -43,12 +42,6 @@ switch (tipo) {
   case "Hierbas y Tes":
     imagen = "/images/banners/bannerHier.png";
     productos=hierbasTe;
-    break;
-  case "Otros":
-    imagen = "/images/banners/bannerOtros.png";
-    break;
-  default:
-    imagen = "/images/defaultBanner.png";
     break;
 }
 ---

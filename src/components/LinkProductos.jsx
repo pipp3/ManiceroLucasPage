@@ -7,7 +7,7 @@ const Productos = () => {
   const [mostrarLista, setMostrarLista] = useState(false);
   const timeoutRef = useRef(null);
 
-  const tiposProductos = ["Frutos Secos", "Frutas Deshidratadas", "Dulces", "Condimentos y Especias", "Hierbas y Tes", "Otros"];
+  const tiposProductos = ["Frutos Secos", "Frutas Deshidratadas", "Dulces", "Condimentos y Especias", "Hierbas y Tes"];
 
   const link = "ml-5 px-2 py-3 rounded-lg";
 
