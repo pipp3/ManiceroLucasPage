@@ -7,7 +7,7 @@ export default {
             'sans': ['Roboto', 'sans-serif'],
 			'poppins': ['Poppins', 'sans-serif'],
 			'ubuntu': [ 'Ubuntu','sans-serif'],
-			'convergence': ['Convergence','sans-serif']
+			'convergence': ['Convergence','sans-serif'],
            
         },
 		
