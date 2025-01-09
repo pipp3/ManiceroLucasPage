@@ -1,42 +1,282 @@
 [
     {
         "id": 1,
-        "name": "Huevito de Chocolate",
-        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-        "image": "/images/productos/pistachos.jpg",
-        "formatos": "1 KG - 500 Gramos",
-        "precioMin": "$6.500"
+        "name": "Gomitas de Huesitos",
+        "description": "Gomitas dulces con forma de huesitos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0189.jpeg?updatedAt=1735603898166",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
       },
       {
         "id": 2,
-        "name": "Goji",
-        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-        "image": "/images/productos/pistachos.jpg",
-        "formatos": "1 KG - 500 Gramos",
-        "precioMin": "$6.500"
+        "name": "Gomitas de Gusanos Cortos Acidos",
+        "description": "Gomitas dulces con forma de gusanos cortos y acidos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0196.jpeg?updatedAt=1735603898267",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
       },
       {
         "id": 3,
-        "name": "Goji",
-        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-        "image": "/images/productos/pistachos.jpg",
-        "formatos": "1 KG - 500 Gramos",
-        "precioMin": "$6.500"
+        "name": "Mix de Gomitas",
+        "description": "Variedad de gomitas dulces y acidas.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0204.jpeg?updatedAt=1735603898313",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
       },
       {
         "id": 4,
-        "name": "Goji",
-        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-        "image": "/images/productos/pistachos.jpg",
-        "formatos": "1 KG - 500 Gramos",
-        "precioMin": "$6.500"
+        "name": "Gomitas de Sandias Acidas",
+        "description": "Gomitas dulces con forma de sandias y acidas.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0197.jpeg?updatedAt=1735603898333",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
       },
       {
         "id": 5,
-        "name": "Goji",
-        "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-        "image": "/images/productos/pistachos.jpg",
+        "name": "Gomitas de Tenis Acidos",
+        "description": "Gomitas acidas con forma de tenis.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0202.jpeg?updatedAt=1735603897941",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 6,
+        "name": "Gomitas de Corazones Dulces",
+        "description": "Gomitas dulces con forma de corazones.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0188.jpeg?updatedAt=1735603896722",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 7,
+        "name": "Gomitas de Aros Acidos",
+        "description": "Gomitas acidas con forma de aritos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0192.jpeg?updatedAt=1735603896591",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 8,
+        "name": "Gomitas de Besitos",
+        "description": "Gomitas dulces.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0187.jpeg?updatedAt=1735603896518",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 9,
+        "name": "Gomitas de Platanos Dulces",
+        "description": "Gomitas dulces con forma de platanitos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0191.jpeg?updatedAt=1735603896440",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 10,
+        "name": "Gomitas de Huevitos Dulces",
+        "description": "Gomitas dulces con forma de huevitos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0195.jpeg?updatedAt=1735603896483",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 11,
+        "name": "Gomitas de Coca-Cola Dulces",
+        "description": "Gomitas dulces con forma de coca-cola.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0205.webp?updatedAt=1735603787150",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 12,
+        "name": "Gomitas de Dientes Dulces",
+        "description": "Gomitas dulces con forma de dientes.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0193.webp?updatedAt=1735603786541",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 13,
+        "name": "Gomitas de Huesitos Acidas",
+        "description": "Gomitas acidas con forma de huesitos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0206.webp?updatedAt=1735603786211",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 14,
+        "name": "Gomitas de Frutillas Dulces",
+        "description": "Gomitas dulces con forma de frutillas.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0203.webp?updatedAt=1735603786068",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 15,
+        "name": "Gomitas de Cerezas Dulces",
+        "description": "Gomitas dulces con forma de cerezas.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0199.webp?updatedAt=1735603784198",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 16,
+        "name": "Gomitas de Moras Dulces",
+        "description": "Gomitas dulces con forma de moras, similar a los Amberries.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0186.webp?updatedAt=1735603783607",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 17,
+        "name": "Gomitas de Gusanos Cortos Dulces",
+        "description": "Gomitas dulces con forma de gusanos cortos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0198.webp?updatedAt=1735603783617",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 18,
+        "name": "Gomitas de Gusanos Largos Dulces",
+        "description": "Gomitas dulces con forma de ositos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0200.webp?updatedAt=1735603783787",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 19,
+        "name": "Gomitas de Gusanos Largos Acidos",
+        "description": "Gomitas acidas con forma de gusanos largos.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0194.webp?updatedAt=1735603783345",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 20,
+        "name": "Gomitas de Coca-Cola Acidas",
+        "description": "Gomitas acidas con forma de coca-cola.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0201.webp?updatedAt=1735603783203",
+        "formatos": "1 KG",
+        "precioMin": "$5.000"
+      },
+      {
+        "id": 21,
+        "name": "Cherry Sour Rojo",
+        "description": "Pelotitas rojas acidas masticables.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0173.webp?updatedAt=1735603784796",
         "formatos": "1 KG - 500 Gramos",
-        "precioMin": "$6.500"
+        "precioMin": "$5.500"
+      },
+      {
+        "id": 22,
+        "name": "Cherry Sour Verde",
+        "description": "Pelotitas verdes acidas masticables sabor a manzana.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0176.webp?updatedAt=1735603783229",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$5.500"
+      },
+      {
+        "id": 23,
+        "name": "Cherry Sour Surtido",
+        "description": "Pelotitas de colores acidas masticables multisabor.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0175.webp?updatedAt=1735603787433",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$5.500"
+      },
+      {
+        "id": 24,
+        "name": "Chubi",
+        "description": "Chubi de colores, dulces de chocolate.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0184.webp?updatedAt=1735603785661",
+        "formatos": "1 KG",
+        "precioMin": "$10.000"
+      },
+      {
+        "id": 25,
+        "name": "Rocklet",
+        "description": "Mani cubierto de chocolate crocante, similar a los Rocklets.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0185.webp?updatedAt=1735603785748",
+        "formatos": "1 KG",
+        "precioMin": "$10.000"
+      },
+      {
+        "id": 26,
+        "name": "Piedras de Chocolate",
+        "description": "Chocolate de colores con forma de piedras.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0182.jpeg?updatedAt=1735603896377",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.000"
+      },
+      {
+        "id": 27,
+        "name": "Maravillas Bañadas en Chocolate",
+        "description": "Maravillas bañadas en chocolate, de multiples colores.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0183.jpeg?updatedAt=1735603896454",
+        "formatos": "1 KG - 500 Gramos",
+        "precioMin": "$6.000"
+      },
+      {
+        "id": 28,
+        "name": "Deliket Dulce",
+        "description": "Porotos dulces masticables de colores.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0183.jpeg?updatedAt=1735603896454",
+        "formatos": "700 Gramos",
+        "precioMin": "$3.250"
+      },
+      {
+        "id": 29,
+        "name": "Deliket Acido",
+        "description": "Porotos acidos masticables de colores.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0183.jpeg?updatedAt=1735603896454",
+        "formatos": "700 Gramos",
+        "precioMin": "$3.250"
+      },
+      {
+        "id": 30,
+        "name": "Tubos Rojos Dulces",
+        "description": "Tubos rojos dulces con sabor a frutilla, similar a los Finis.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0210.jpeg?updatedAt=1735603898103",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
+      },
+      {
+        "id": 31,
+        "name": "Tubos Rojos Acidos",
+        "description": "Tubos rojos acidos con sabor a frutilla, similar a los Finis.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0211.webp?updatedAt=1735603865119",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
+      },
+      {
+        "id": 32,
+        "name": "Tubos Unicornio",
+        "description": "Tubos de color unicornio con sabor a frutilla, similar a los Finis.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0212.webp?updatedAt=1735603785312",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
+      },
+      {
+        "id": 33,
+        "name": "Tubos Arcoiris",
+        "description": "Tubos de color arcoiris con sabor a frutilla, similar a los Finis.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0213.webp?updatedAt=1735603783504",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
+      },
+      {
+        "id": 34,
+        "name": "Regaliz / Cintas de Arcoiris",
+        "description": "Cintas de colores sabor a frutilla, similar a los Regaliz.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0209.webp?updatedAt=1735603784221",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
+      },
+      {
+        "id": 35,
+        "name": "Regaliz / Cintas Rojas",
+        "description": "Cintas rojas sabor a frutilla, similar a los Regaliz.",
+        "image": "https://ik.imagekit.io/bqjc3vplm/dulces/IMG_0208.webp?updatedAt=1735603783609",
+        "formatos": "Caja",
+        "precioMin": "$6.200"
       }
 ]

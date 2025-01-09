@@ -1,40 +1,114 @@
-[ {
+[
+  {
     "id": 1,
     "name": "Oregano",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
-    "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "description": "El orégano es una hierba aromática esencial en la cocina mediterránea y latinoamericana. Su sabor intenso y ligeramente picante realza tus recetas favoritas, desde pizzas hasta guisos y ensaladas.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/oregano.jpeg?updatedAt=1735522015027",
+    "formatos": "1 KG - 500 Gramos - 250 Gramos",
+    "precioMin": "$5.000"
   },
   {
     "id": 2,
-    "name": "Aji Molido",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Merken Ahumado",
+    "description": "El merkén ahumado es un condimento típico chileno elaborado con ají cacho de cabra ahumado y molido. Es perfecto para dar un toque ahumado y picante a tus platos favoritos.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/merken.jpeg?updatedAt=1735522014127",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$4.000"
   },
   {
     "id": 3,
-    "name": "Goji",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Aji Color",
+    "description": "El ají color, también conocido como paprika, es un ingrediente imprescindible para dar color y un suave sabor a tus preparaciones como sopas, guisos y carnes.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/ajicolor.jpeg?updatedAt=1735522013939",
     "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "precioMin": "$4.000"
   },
   {
     "id": 4,
-    "name": "Goji",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
-    "formatos": "1 KG - 500 Gramos",
-    "precioMin": "$6.500"
+    "name": "Pimienta Negra Entera",
+    "description": "La pimienta negra entera es el condimento universal por excelencia. Ideal para moler al instante y resaltar el sabor de tus comidas con un toque especiado y fresco.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/pimienta_entera.jpeg?updatedAt=1735522013656",
+    "formatos": "1 KG - 500 Gramos - 250 Gramos",
+    "precioMin": "$12.000"
   },
   {
     "id": 5,
-    "name": "Goji",
-    "description": "Disfruta del crujiente irresistible y el sabor unico de los Pistachos Salados. Estos frutos secos, originarios de Medio Oriente, han conquistado paladares alrededor del mundo gracias a su exquisita combinacion de sal y un toque dulce.\n\nMas que un simple snack:\n\nSuperalimento: Los pistachos son reconocidos como un superalimento por su alto contenido de nutrientes esenciales, incluyendo proteínas, fibra, vitaminas y minerales. Son una fuente rica en antioxidantes, potasio, magnesio y vitamina E, que contribuyen a la salud cardiovascular, ocular y cerebral.",
-    "image": "/images/productos/pistachos.jpg",
+    "name": "Pimienta Negra Molida",
+    "description": "La pimienta negra molida es perfecta para sazonar tus platos con un sabor especiado y cálido. Lista para usar en todo tipo de preparaciones.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/comino_molido.jpeg?updatedAt=1735522013814",
+    "formatos": "1 KG - 500 Gramos - 250 Gramos",
+    "precioMin": "$12.000"
+  },
+  {
+    "id": 6,
+    "name": "Ajo Escama",
+    "description": "El ajo en escamas es un ingrediente versátil que conserva todo el sabor y aroma del ajo fresco. Ideal para sopas, salsas y platos al horno.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/ajo_escama.jpeg?updatedAt=1735522015322",
     "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$6.000"
+  },
+  {
+    "id": 7,
+    "name": "Ajo Molido",
+    "description": "El ajo molido es la opción práctica y lista para usar para dar un toque intenso y aromático a tus comidas favoritas.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/ajo_polvo.jpeg?updatedAt=1735522015155",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$5.500"
+  },
+  {
+    "id": 8,
+    "name": "Ajinomoto",
+    "description": "El Ajinomoto es un sazonador umami que potencia los sabores naturales de tus recetas, ideal para sopas, salteados y platos asiáticos.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/ajinomoto.jpeg?updatedAt=1735522015032",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$8.000"
+  },
+  {
+    "id": 9,
+    "name": "Jengibre en Polvo",
+    "description": "El jengibre en polvo es un condimento aromático y ligeramente picante que realza el sabor de tus preparaciones dulces y saladas.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/jengibre_polvo.jpeg?updatedAt=1735522013703",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$7.500"
+  },
+  {
+    "id": 10,
+    "name": "Semilla de Cilantro",
+    "description": "La semilla de cilantro aporta un sabor cítrico y especiado, perfecto para marinadas, guisos y currys.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/cilantro.jpeg?updatedAt=1735522013915",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$6.000"
+  },
+  {
+    "id": 11,
+    "name": "Aliño Completo",
+    "description": "El aliño completo combina especias seleccionadas para sazonar carnes, guisos y sopas con un sabor equilibrado y delicioso.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/alino.jpeg?updatedAt=1735522014401",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$5.500"
+  },
+  {
+    "id": 12,
+    "name": "Comino Entero",
+    "description": "El comino entero es un clásico de la cocina que aporta un sabor terroso y ligeramente dulce a tus platos. Ideal para tostar y liberar todo su aroma.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/comino_entero.jpeg?updatedAt=1735522014005",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$4.500"
+  },
+  {
+    "id": 13,
+    "name": "Comino Molido",
+    "description": "El comino molido es perfecto para sazonar guisos, sopas y recetas tradicionales con su sabor característico y aromático.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/comino_molido.jpeg?updatedAt=1735522013814",
+    "formatos": "1 KG - 500 Gramos",
+    "precioMin": "$4.500"
+  },
+  {
+    "id": 14,
+    "name": "Cúrcuma",
+    "description": "La cúrcuma es una especia vibrante y nutritiva que aporta un color dorado y un sabor suave a tus comidas. Conocida por sus propiedades antioxidantes y antiinflamatorias.",
+    "image": "https://ik.imagekit.io/bqjc3vplm/condimentos/curcuma.jpeg?updatedAt=1735522014246",
+    "formatos": "1 KG - 500 Gramos - 250 Gramos",
     "precioMin": "$6.500"
-  }]
+  }
+]
